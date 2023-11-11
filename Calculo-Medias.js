@@ -6,7 +6,7 @@ if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3) || nota1 < 0 || nota1 > 10 || n
   console.log("Por favor, insira notas válidas entre 0 e 10.");
 } else {
 
-  var media = (nota1 + nota2 + nota3) / 3;
+  let media = (nota1 + nota2 + nota3) / 3;
 
   console.log("A média das notas é: " + media.toFixed(2));
 }
